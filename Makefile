@@ -8,7 +8,7 @@ osname := $(shell uname)
 
 # Only need to change if you install boost-python from source
 BOOST_INC = /usr/include/boost
-BOOST_LIB = /usr/lib/aarch64-linux-gnu
+BOOST_LIB = /usr/lib/arm-linux-gnueabihf
 
 # $(info $$osname is [${osname}])
 
